@@ -3,12 +3,12 @@
 Define true/false value to purify external or all links as per your need
 
 
-[![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/external-link-purifier.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
+[![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/external-link-purifier.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/external-link-purifier)
 [![Software License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/build-status/master)
 
-i.e.:  I want to highlight only links in my content, so I need to 
+i.e.:  I want to remove external links from my content, so I need to 
 define following variables in my configuration yaml file.
 
 ```
