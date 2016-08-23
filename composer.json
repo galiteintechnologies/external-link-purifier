@@ -21,7 +21,5 @@
             "ExternalLinkPurifier\\": "src/",
             "ExternalLinkPurifier\\src\\Services\\": "src/Services/"
         }
-    },
-    "minimum-stability": "dev-master",
-    "prefer-stable": true
+    }
 }
