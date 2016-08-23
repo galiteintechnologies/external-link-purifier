@@ -17,8 +17,9 @@
         "symfony/yaml": "~2.3|~3.0"
     },
     "autoload": {
-        "psr-4": {
-            "ExternalLinkPurifier\\": "src/"            
+        "psr-4": {            
+            "ExternalLinkPurifier\\": "src/",
+            "ExternalLinkPurifier\\src\\Services\\": "src/Services/"
         }
     },
     "minimum-stability": "dev-master",
