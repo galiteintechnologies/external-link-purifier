@@ -13,7 +13,7 @@ class ExternalLinkFilter {
      */
     public static function removeWebLinks($content, $domain) {
         if (!empty($content)) {
-            if(!empty($domain)) {                
+            if (!empty($domain)) {                
                 $pattern = '#<a [^>]*\bhref=([\'"])http.?://((?!$domain)[^\'"])+\1 *>.*?</a>#i';
                 $filteredString = preg_replace($pattern, '', $content);
             } else {

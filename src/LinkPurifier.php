@@ -39,7 +39,7 @@ class LinkPurifier {
         
         $configArray = Yaml::parse(file_get_contents($this->pathToYml));
         
-        if(true === $purify || true === $configArray['external_link']['purify'])
+        if (true === $purify || true === $configArray['external_link']['purify'])
         {
             $content = ExternalLinkFilter::removeWebLinks($content, $domain);
         }
