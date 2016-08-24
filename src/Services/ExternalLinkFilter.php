@@ -14,17 +14,8 @@ class ExternalLinkFilter {
     public static function removeWebLinks($content, $domain) {
         if (!empty($content)) {
             if(!empty($domain)) {                
-                $regex = '/<a (.*)<\/a>/isU';
-                $result = array();
-                preg_match_all($regex,$content,$result);
-                $filter_regex = '/<a (.*)>(.*)<\/a>/isU';
-                foreach($result[0] as $rs)
-                {
-                    if($rs !== $domain) {                        
-                        $text = preg_replace($filter_regex,'$2',$rs);
-                        $str = str_replace($rs,$text,$str);   
-                    }                 
-                }
+                $pattern = '#<a [^>]*\bhref=([\'"])http.?://((?!$domain)[^\'"])+\1 *>.*?</a>#i';
+                $filteredString = preg_replace($pattern, '', $content);
             } else {
                 $filteredString = preg_replace('#<a.*?>.*?</a>#i', '', $content);
             }
