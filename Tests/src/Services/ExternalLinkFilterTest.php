@@ -12,7 +12,7 @@ class ExternalLinkFilterTest extends \PHPUnit_Framework_TestCase
     public function removeWebLinksTest() 
     {
         $output = ExternalLinkFilter::removeWebLinks('Lorem Ipsum <a href="http://www.google.co.in" target="_blank">http://www.google.co.in</a> Lorem Ipsum');
-        $expectedOutPut = 'Lorem Ipsum Lorem Ipsum';
+        $expectedOutPut = 'Lorem Ipsum  Lorem Ipsum';
         $this->assertEquals($expectedOutPut, $output);
     }
 
