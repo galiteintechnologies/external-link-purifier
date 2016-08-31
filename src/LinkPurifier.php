@@ -23,12 +23,11 @@ class LinkPurifier {
         if (!empty($pathToYml)) {
             $this->pathToYml = $pathToYml;
         } else {
-            $this->pathToYml = __DIR__ . "/Resources/config/config.yml";
+            $this->pathToYml = __DIR__ . "/../Resources/config/config.yml";
         }
     }
 
     /**
-     * 
      * @param string $content
      * @param string $domain
      * @param string $purify
