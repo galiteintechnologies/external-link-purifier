@@ -8,6 +8,16 @@ Define true/false value to purify external or all links as per your need
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/external-link-purifier/build-status/master)
 
+## Installation
+
+If you use composer, you can add this package by running 
+
+````
+composer require nexuslinkservices/external-link-purifier
+````
+
+## Usage
+
 i.e.:  I want to remove external links from my content, so I need to 
 define following variables in my configuration yaml file.
 
