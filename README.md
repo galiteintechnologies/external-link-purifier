@@ -13,7 +13,7 @@ Define true/false value to purify external or all links as per your need
 If you use composer, you can add this package by running 
 
 ````
-composer require nexuslinkservices/external-link-purifier
+composer require galiteintechnologies/external-link-purifier
 ````
 
 ## Usage
